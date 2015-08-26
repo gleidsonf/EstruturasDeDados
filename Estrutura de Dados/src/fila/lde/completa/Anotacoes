@@ -1,0 +1,20 @@
+A Classe "LinkedQueueCirculate" implementa a interface QueueLDE;
+Métodos da interface QueueLDE:
+- int size();
+- boolean isEmpty();
+- void insertFirst(Tipo element);
+- void insertLast(Tipo element);
+- Object removeFirst() throws DequeEmptyException;
+- Object removeLast() throws DequeEmptyException;
+- Object first() throws DequeEmptyException;
+ -Object last() throws DequeEmptyException;
+ -------------------------------------------------------------------
+ 
+ Métodos adiconar da classe LinkedQueueCirculate:
+- void imprimir();
+- boolean contains();
+
+*Observação: Não consegui achar nenhuma utilidade para usar os atributos 'frente', 'calda' 
+usados no vetor circular. Dessa forma só utilizei o atributo 'tamanho'. Tendo em vista que
+a lista circular encadeda usando lse tem o tamanho variando de acordo com a quantidade de elementos.
+Diferente da lista circular usando vetor, implementado em sala de aula.
